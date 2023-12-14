@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <fieldset>
+        <legend><mark>Register Form</mark></legend>
+        <center>
+            <marquee width="260"><h2><span style="background-color: aqua;">Registration form</span></h2> <hr></marquee>
+            <form>
+                <label for="surname">First name:</label>
+                <input  style="border-radius: 5px;" type="text" name="surname" id="surname" placeholder="surname" /><br> <br>
+                <label for="lastname">Last Name:</label>
+                <input style="border-radius: 5px;" type="text" name="lastname" id="lastname" placeholder="your name"/><br><br>
+                <label for="mail">Email:</label>
+                <input style="border-radius: 5px;" type="email" name="email" id="mail" placeholder="raju@gmail.com"/><br><br>
+                <label for="num">Mobile Number:</label>
+                <input style="border-radius: 5px;" type="tel" name="number" id="num" placeholder="1234567890" pattern="[0-9]{10}"/><br><br>
+                <label for="pswd">Password:</label>
+                <input style="border-radius: 5px;" type="password" name="password" id="pswd" minlength="8" maxlength="15"/> <br><br>
+                <label for="dob">Date of birth:</label>
+                <input style="border-radius: 5px;" type="datetime-local" name="date of birth" id="dob"/><br><br>
+                <label for="doc">Upload file:</label>
+                <input style="border-radius: 5px; background-color: antiquewhite;" type="file" name="doc" id="doc" multiple/><br><br>
+                <label for="male">Gender:</label>
+                <input type="radio" name="gender" id="male" />
+                <label>Male</label>
+                <input type="radio" name="gender" id="Female" />
+                <label for="Female">Female</label><br><br>
+                <label for="lang"> Select language:</label>
+                <input style="border-radius: 5px;" list="lang">
+                <datalist id="lang">
+                    <option value="Telugu"></option>
+                    <option value="Hindi"></option>
+                    <option value="English"></option>
+                    <option value="urdu"></option>
+                </datalist><br><br>
+                <label for="lang"></label>
+                <label for="lang">Rate yourself:</label>
+                <input type="range" name="lang" id="lang"><br><br>
+                <label for="linkedin url"> paste your linkedin url:</label>
+                <input type="url" name="linkedin url" id="linkedin url"><br><br>
+
+
+
+                <input style="border-radius: 5px; background-color:lightcoral;" type="reset">
+                <input style="border-radius: 5px; background-color: lightcoral;" type="submit" value="register"/>
+
+
+
+            </form>
+        </center>
+    </fieldset>
+</body>
+</html>
